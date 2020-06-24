@@ -1,0 +1,40 @@
+.addPollContainer{
+    border: 2px solid lightgrey;
+    text-align: center;
+    border-radius: 5px;
+}
+.newPollheadingContainer{
+    border-bottom: 2px solid lightgrey;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+.newPollbodyContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+}
+.inputField{
+    border: 1px solid lightgray;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.submitBtn{
+    background-color: #00a699;
+    border:1px solid #00a699;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+}
+.or::after{
+    content: "";
+    border-bottom: 1px solid lightgray;
+}
+.or::before{
+    content:"";
+    border-bottom: 1px solid lightgray;
+}

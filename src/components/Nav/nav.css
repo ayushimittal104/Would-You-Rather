@@ -1,0 +1,33 @@
+.nav{
+  margin-top: 20px;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right:10px;
+    border-bottom: 2px solid #00a699;
+    position: relative;
+  }
+.nav li{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.active {
+font-weight: bold;
+background-color:  #00a699;
+color: white;
+height: 20px;
+border-radius: 5px;
+border: 1px solid #00a699;
+width:100%
+}
+.rightDiv{
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}

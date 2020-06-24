@@ -1,0 +1,38 @@
+.leaderboardContainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.singleUser{
+    display:flex;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100px;
+    margin-bottom: 5px;
+    
+}
+.middleDiv{
+    border-left :1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    padding-left: 20px;
+    padding-right:20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+}
+.userLargeImg{
+    width: 50px;
+    height:50px
+}
+.scoreBoard{
+    display:flex;
+    flex-direction: column;
+    border :1px solid lightgrey;
+    width: 50px;
+    height:60px;
+    justify-content: space-between;
+    border-radius: 5px;
+}

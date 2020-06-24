@@ -1,0 +1,29 @@
+.quesContainer{
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+.quesHeadingContainer{
+    border-bottom: 2px solid lightgrey;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+.quesBodyContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+.submitBtn{
+    background-color: #00a699;
+    border:1px solid #00a699;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+}
+.option{
+    display: flex;
+    
+}
